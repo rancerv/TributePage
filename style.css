@@ -1,3 +1,13 @@
+* {
+	padding-top: 0;
+	padding-left: 0
+	padding-right: 0;
+	margin-top: 0; 
+	margin-left: 0;
+	margin-right: 0;
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #DCDCDC;
 }
@@ -5,9 +15,9 @@ body {
 .h1-h6-text {
 	font-family: Trebuchet MS;
 	color: ;
-	
 	background-color: #1E90FF;
 	text-align: center;
+	padding-top: 10px
 }
 
 img {
@@ -16,18 +26,15 @@ img {
 	 margin-right: auto;
 	 width: 25%;
 	 position: relative;
-}
+	 padding-top: 40px;
+	 border-bottom: solid #1E90FF;
+}	
 
-.image p {
+.image figure {
 	font-family: Trebuchet MS;
 	text-align: center;
 	display: block;
-    margin: 200px;    
-}
-
-.image figure #img-caption {
-	text-align: center;
-	font-family: Trebuchet MS;
+	padding-bottom: 70px;
 }
 
 h3 {
@@ -37,10 +44,13 @@ h3 {
 }
 .list {
 	font-family: Trebuchet MS;
-	margin: 25px 50px 75px 100px;
+	margin: 25px 50px 45px 350px;
 	line-height: 3.0;
-	padding: 100px;
+	padding-bottom: 1px;
+	display: block;
+	width: 900px;
 }
+
 ::marker {
 	color: #1E90FF;
 }
@@ -49,7 +59,11 @@ h3 {
 	text-align: left;
 	font-family: Trebuchet MS;
 	color: #1E90FF;
+	width: 95%;
+	padding-top: -20px;
+	margin-left: 30px;
 }
 h2 {
 	font-family: Trebuchet MS;
+	text-align: center;
 }
