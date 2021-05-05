@@ -5,8 +5,9 @@ body {
 .h1-h6-text {
 	font-family: Trebuchet MS;
 	color: ;
-	text-align: center;
+	
 	background-color: #1E90FF;
+	text-align: center;
 }
 
 img {
@@ -14,23 +15,31 @@ img {
 	 margin-left: auto;
 	 margin-right: auto;
 	 width: 25%;
+	 position: relative;
 }
 
 .image p {
 	font-family: Trebuchet MS;
 	text-align: center;
 	display: block;
-    margin: 0 auto;
+    margin: 200px;    
 }
+
+.image figure #img-caption {
+	text-align: center;
+	font-family: Trebuchet MS;
+}
+
 h3 {
 	font-family: Trebuchet MS;
 	color: #1E90FF;
-	text-align: center;
+	text-align: center;ore
 }
 .list {
 	font-family: Trebuchet MS;
 	margin: 25px 50px 75px 100px;
 	line-height: 3.0;
+	padding: 100px;
 }
 ::marker {
 	color: #1E90FF;
